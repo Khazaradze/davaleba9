@@ -7,7 +7,7 @@
     display: none;
 }
 .section1{
-    background-image: url("..//imgs/cover.png");
+    background-image: url("/imgs/cover.png");
     background-repeat: no-repeat;
 }
 .div1{
@@ -19,19 +19,14 @@
     line-height: 40px;
 }
 
-.section1_p{
-    font-size: 14px;
-    line-height: 22px;
-}
+
 .card_div{
     flex-direction: column;
     row-gap: 24px;
 }
-.big_image{
-    display: none;
-}
+
 .big_img{
-    background-image: url("..//imgs/Rectangle 12 (1).png");
+    background-image: url("/imgs/Rectangle\ 17.png");
     background-repeat: no-repeat;
 }
 .bigimg_h2{
