@@ -213,3 +213,20 @@ li {
 }
 
 /* footer */
+footer {
+    margin-top: 130px;
+    background-color: #000;
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 14px;
+
+}
+
+.footer_p {
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
+}
