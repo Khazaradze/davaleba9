@@ -1,0 +1,55 @@
+.header2{
+    display: none;
+    
+}
+
+.cover{
+    display: none;
+}
+.section1{
+    background-image: url("..//imgs/cover.png");
+    background-repeat: no-repeat;
+}
+.div1{
+    top: 24px;
+    left: 14px;
+}
+.travel{
+    font-size: 32px;
+    line-height: 40px;
+}
+.lorem{
+    font-size: 14px;
+    line-height: 22px;
+}
+.card_div{
+    flex-direction: column;
+    row-gap: 24px;
+}
+.big_image{
+    display: none;
+}
+.big_img{
+    background-image: url("..//imgs/Rectangle 12 (1).png");
+    background-repeat: no-repeat;
+}
+.bigimg_h2{
+    font-size: 24px;
+    line-height: 32px;
+}
+.bigimg_p{
+    font-size: 12px;
+    line-height: 16px;
+}
+.bigimg_div{
+    top: 115px;
+    left: 14px;
+}
+.small_imgs{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.small_image{
+    width: 100%;
+}
+
