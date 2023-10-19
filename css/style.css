@@ -1,10 +1,10 @@
-.container{
+.container {
     width: min(100%, 1440px);
     margin: auto;
 }
 
 /* header */
-header{
+header {
     width: calc(1180 / 1440 * 100%);
     display: flex;
     padding: 6px 0px;
@@ -12,26 +12,26 @@ header{
     align-items: center;
 }
 
-.header_text{
+.header_text {
     color: #FA793C;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.header1{
+.header1 {
     display: flex;
     align-items: center;
     column-gap: 14px;
 }
 
-.logo{
+.logo {
     width: 38px;
     height: 38px;
 }
 
-.header2{
+.header2 {
     display: flex;
     align-items: center;
     column-gap: 40px;
@@ -42,14 +42,48 @@ ul {
     column-gap: 32px;
 }
 
-li{
+li {
     font-family: ABeeZee;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.fa-circle-user{
+.fa-circle-user {
     font-size: 24px;
 
+}
+
+/* section1 */
+.section1 {
+    height: 550px;
+    position: relative;
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    top: 101px;
+    left: 130px;
+    position: absolute;
+}
+
+.section1_h2{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.section1_p {
+    width: calc(980 / 1440 * 100%);
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
 }
